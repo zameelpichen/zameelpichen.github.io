@@ -1,7 +1,99 @@
 <!DOCTYPE html>
 <html>
+<head>
 <title>Zameel Pichen | Quick Learner</title>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style type="text/css">
+	body{
+		padding: 0px;
+	}
+	.personal{
+		height: 100vh;
+		background-image: url('img/personal_bg.png');
+		background-size: cover;
+		background-position: center; 
+		line-height: 100vh
+	}
+	
+	.professional{
+		height: 100vh;
+		background-image: url('img/professional_main.png');
+		background-size: cover;
+		background-position: center; 
+		line-height: 100vh
+		
+	}
+	.personal > span > img {
+	}
+	.img-wrapper {
+	  position: relative;
+	  width: 100%
+
+	 }
+
+	.img-overlay {
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  text-align: center;
+	  background: rgba(0,0,0,0.35); width: 100%;
+	}
+	.img-overlay:hover {
+		background: rgba(0,0,0,0.0); 
+		-webkit-transition: background 2.5s; /* Safari */
+    	transition: background 2.5s;
+	}
+
+	.img-overlay:before {
+	  content: ' ';
+	  display: inline;
+	  /* adjust 'height' to position overlay content vertically */
+	  height: 50%;
+	}
+	.professional-overlay{
+      background: rgba(0,0,0,0.35); 
+      width: 100%;
+	}
+	.professional-overlay:hover{
+		background: rgba(0,0,0,0.0); 
+		-webkit-transition: background 2.5s; /* Safari */
+    	transition: background 2.5s;
+	}
+
+	
+		
+</style>
+
+</head>
 <body>
+
+<div class="container-fluid">
+	<div class="row">
+	<div class="col-md-6 professional d-flex justify-content-center"  style="padding: 0px">
+		<div class="d-flex justify-content-center professional-overlay">
+			<div>
+				<button type="button" class="btn btn-lg btn-outline-primary">Professional</button>
+
+			</div>
+
+		</div>
+	</div>
+	<div class="col-md-6 personal d-flex justify-content-center" style="padding: 0px">
+
+		<div class="img-wrapper">
+		    <img class="img-responsive" style="width: 100%" src="img/personal_main.png">
+		    <div class="img-overlay">
+			<button type="button" class="btn btn-lg btn-outline-primary centered">Personal</button>
+		    </div>
+		</div>
+		
+		
+	</div>
+	</div>
+</div>
 
 <div>
 	<h1>Professional</h1>
@@ -29,7 +121,7 @@
 		</div>
 		<div>
 			<h3>Your Project</h3>
-			<p>You are welcome to hire me (hopefully without an NDA, but NDA is also ok), or get a quick technical consultation for your new company or startup. Reach me : <a href="mailto:zameelpichen@gmail.com?Subject=Hello%20There!" target="_top">zameelpichen@gmail.com</a> | <a href="https://www.linkedin.com/in/zameelpichen/">LinkedIn</a> | <a href="https://twitter.com/zameelpichen">Twitter</a> | <a href="https://github.com/zameelpichen">Gthub</a>.</p>
+			<p>You are welcome to hire me (hopefully without an NDA, but NDA is also ok), or get a quick technical consultation for your new company or startup. My generalised <a href="pricing.html">pricing</a>. Reach me : <a href="mailto:zameelpichen@gmail.com?Subject=Hello%20There!" target="_top">zameelpichen@gmail.com</a> | <a href="https://www.linkedin.com/in/zameelpichen/">LinkedIn</a> | <a href="https://twitter.com/zameelpichen">Twitter</a> | <a href="https://github.com/zameelpichen">Gthub</a>.</p>
 		</div>
 	</div>
 	<div>
@@ -78,7 +170,6 @@
 			<h3>Python</h3>
 			<p>Crash coursed while trying to repair the WhatsApp-Telegram-Bridge. Its <a href="https://github.com/SpEcHiDe/WhatsApp-Telegram-Bridge">Here</a>.</p>
 		</div>
-
 	</div>
 </div>
 
@@ -137,5 +228,12 @@
 <footer>
 	<a href="">Twitter</a>
 </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.js"/>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.bundle.min.js"/>
+
 </body>
 </html>
