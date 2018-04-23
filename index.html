@@ -3,25 +3,28 @@
 <head>
 <title>Zameel Pichen | Quick Learner</title>
 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style type="text/css">
 	body{
 		padding: 0px;
+
 	}
 	.personal{
-		height: 100vh;
+		height: 90vh;
 		background-image: url('img/personal_bg.png');
 		background-size: cover;
 		background-position: center; 
-		line-height: 100vh
+		line-height: 90vh
 	}
 	
 	.professional{
-		height: 100vh;
+		height: 90vh;
 		background-image: url('img/professional_main.png');
 		background-size: cover;
 		background-position: center; 
-		line-height: 100vh
+		line-height: 90vh
 		
 	}
 	.personal > span > img {
@@ -39,12 +42,12 @@
 	  left: 0;
 	  right: 0;
 	  text-align: center;
-	  background: rgba(0,0,0,0.35); width: 100%;
+	  background: rgba(0,0,0,0.45); width: 100%;
 	}
 	.img-overlay:hover {
 		background: rgba(0,0,0,0.0); 
-		-webkit-transition: background 2.5s; /* Safari */
-    	transition: background 2.5s;
+		-webkit-transition: background 1.5s; /* Safari */
+    	transition: background 1.5s;
 	}
 
 	.img-overlay:before {
@@ -54,14 +57,175 @@
 	  height: 50%;
 	}
 	.professional-overlay{
-      background: rgba(0,0,0,0.35); 
+      background: rgba(0,0,0,0.45); 
       width: 100%;
 	}
 	.professional-overlay:hover{
 		background: rgba(0,0,0,0.0); 
-		-webkit-transition: background 2.5s; /* Safari */
-    	transition: background 2.5s;
+		-webkit-transition: background 1.5s; /* Safari */
+    	transition: background 1.5s;
 	}
+
+	.professionalh1{
+		margin: 16px;
+		margin-top: 22px
+	}
+	.showcase{
+
+	}
+
+	.professional-card{
+		margin: 0px;
+		padding: 0px;
+		margin-top: 8px;
+		display: inline-block;
+	}
+	.professional-card.col-md-4{
+		margin: 0px;
+		padding: 0px;
+		margin-top: 8px;
+	}
+	.professional-card > div{
+		padding: 16px;
+		margin: 4px;
+		height: 100%;
+		border-radius: 10px;
+		background: rgba(0,0,0,0.85); 
+		color: rgba(255,255,255,0.85);
+	}
+	.professional-card > div > h3{
+		text-align: center;
+
+		margin-bottom: 16px;
+	}
+	.professional-card > div > p{
+		margin: 0px;
+		text-align: justify;
+	}
+
+
+	.program-card{
+		margin: 0px;
+		padding: 0px;
+		margin-top: 8px;
+		display: inline-block;
+	}
+	.program-card.col-md-4{
+		margin: 0px;
+		padding: 0px;
+		margin-top: 8px;
+	}
+	.program-card > div{
+		padding: 16px;
+		margin: 4px;
+		height: 100%;
+		border-radius: 10px;
+
+		background: rgba(0,0,0,0.85); 
+		color: rgba(255,255,255,0.85);
+	}
+	.program-card > div > h3{
+		text-align: center;
+	}
+	.program-card > div > p{
+		margin: 0px;
+		text-align: justify;
+	}
+
+	.interests-card{
+		margin: 0px;
+		padding: 0px;
+		margin-top: 8px;
+		display: inline-block;
+	}
+	.interests-card.col-md-4{
+		margin: 0px;
+		padding: 0px;
+		margin-top: 8px;
+	}
+	.interests-card > div{
+		padding: 16px;
+		margin: 4px;
+		height: 100%;
+		border-radius: 10px;
+
+		background: rgba(0,0,0,0.85); 
+		color: rgba(255,255,255,0.85);
+	}
+	.interests-card > div > h3{
+		text-align: center;
+	}
+	.interests-card > div > p{
+		margin: 0px;
+		text-align: justify;
+	}
+
+	.research-card{
+		margin: 0px;
+		padding: 0px;
+		margin-top: 8px;
+		display: inline-block;
+	}
+	.research-card.col-md-4{
+		margin: 0px;
+		padding: 0px;
+		margin-top: 8px;
+	}
+	.research-card > div{
+		padding: 16px;
+		margin: 4px;
+		height: 100%;
+		border-radius: 10px;
+
+		background: rgba(0,0,0,0.85); 
+		color: rgba(255,255,255,0.85);
+	}
+	.research-card > div > h3{
+		text-align: center;
+	}
+	.research-card > div > p{
+		margin: 0px;
+		text-align: justify;
+	}
+	.sports-card{
+		margin: 0px;
+		padding: 0px;
+		margin-top: 8px;
+		display: inline-block;
+	}
+	.sports-card.col-md-4{
+		margin: 0px;
+		padding: 0px;
+		margin-top: 8px;
+	}
+	.sports-card > div{
+		padding: 16px;
+		margin: 4px;
+		height: 100%;
+		border-radius: 10px;
+
+		background: rgba(0,0,0,0.85); 
+		color: rgba(255,255,255,0.85);
+	}
+	.sports-card > div > h3{
+		text-align: center;
+	}
+	.sports-card > div > p{
+		margin: 0px;
+		text-align: justify;
+	}
+
+	footer{
+		margin-top: 32px;
+		height: 10vh;
+		line-height: 2vh;
+		text-align: center;
+
+		background: #000;
+		color: #fff;
+	}
+}
+
 
 	
 		
@@ -69,24 +233,29 @@
 
 </head>
 <body>
-
 <div class="container-fluid">
+	<div class="row">
+		<div class="col-12 text-center" style="height: 10vh; line-height: 10vh; text-align: center; background: #000; color: #fff;font-size: 1.5em; ">
+			Zameel Pichen
+		</div>
+	</div>
 	<div class="row">
 	<div class="col-md-6 professional d-flex justify-content-center"  style="padding: 0px">
 		<div class="d-flex justify-content-center professional-overlay">
 			<div>
-				<button type="button" class="btn btn-lg btn-outline-primary">Professional</button>
-
+				<a class="btn btn-lg btn-outline-primary pro-btn" href="#professionalsec">Professional</a>
+			
+			</div>
 			</div>
 
-		</div>
+		
 	</div>
 	<div class="col-md-6 personal d-flex justify-content-center" style="padding: 0px">
 
 		<div class="img-wrapper">
-		    <img class="img-responsive" style="width: 100%" src="img/personal_main.png">
+		    <img class="img-responsive" style="width:90%; max-height: 90vh" src="img/personal_main.png">
 		    <div class="img-overlay">
-			<button type="button" class="btn btn-lg btn-outline-primary centered">Personal</button>
+			<a href="#personalsec" class="btn btn-lg btn-outline-primary centered">Personal</a>
 		    </div>
 		</div>
 		
@@ -95,145 +264,284 @@
 	</div>
 </div>
 
-<div>
-	<h1>Professional</h1>
-	<div>
-		<h2>Projects Showcase</h2>
-		<div>
-			<h3>Live Streaming</h3>
-			<p>Mass (supporting 10,000 and counting intances) live streaming and broadcasting using RTMP, which I implemented at Server Level (CentOS) and well as Client Side (Android).</p>
+<div class="container"  id="professionalsec">
+	<div class="row">
+		<div class="col-12 professionalh1"><h1 class="text-center">Professional</h1></div>
+	</div>
+	<div class="row">
+	<div >
+
+		<h2 class="text-center" style="margin-bottom: 15px">Projects Showcase</h2>
+		<div class="row">
+			
+			<div class="professional-card col-md-6">
+				<div>
+				<h3>Live Streaming</h3>
+				<p>Mass (supporting 10,000 and counting intances) live streaming and broadcasting using RTMP, which I implemented at Server Level (CentOS) and well as Client Side (Android).</p>					
+				</div>
+			</div>
+			<div class="col-md-6"></div>
 		</div>
-		<div>
+		
+		<div class="row">
+		<div class="professional-card col-md-6">
+			<div>
 			<h3>A Story Got Me Thinking</h3>
 			<p>An android app created by working a continuous sleepless 24hrs only to showcase it here. <a href="https://play.google.com/store/apps/details?id=com.darveshart.app.astorygotmethinking">Google Play Store Link</a>.</p>
+			</div>
 		</div>
-		<div>
+		<div class="professional-card col-md-6">
+			<div>
 			<h3>PLX Pet's Corner</h3>
-			<p>Another attempt at creating a portfolio hobby product. <a href="https://play.google.com/store/apps/details?id=com.darveshart.app.plx_petscorner">Google Play Store Link</a>.</p>
+			<p>Another attempt at creating a portfolio hobby product amidst busy days to fill space here. <a href="https://play.google.com/store/apps/details?id=com.darveshart.app.plx_petscorner">Google Play Store Link</a>.</p>
+			</div>
 		</div>
-		<div>
+		</div>
+		<div class="row">
+		<div class="professional-card col-md-6">
+			<div>
 			<h3>Animal Jigsaw</h3>
 			<p>Not really a work to be put on portfolio. This is the worst I can do from the point of view of an expert developer. (But if I get time to update it, things will change). <a href="https://play.google.com/store/apps/details?id=com.darveshart.app.jigsaw">Google Play Store Link</a>.</p>
+			</div>
 		</div>
-		<div>
-			<h3>Undisclosable Works</h3>
-			<p>Unfortunetly I cannot display some more of my works due to NDAs. These hidden works include android 2D games, in-company web apps, and different outsourced tasks to large ongoing projects utilizing a wide array of resources starting from AWS to Firebase.</p>
+		
+			<div class="professional-card col-md-6">
+			<div>
+				<h3>Undisclosable Works</h3>
+				<p>Unfortunetly I cannot display some more of my works due to NDAs. These hidden works include android 2D games, in-company web apps, and different outsourced tasks to large ongoing projects utilizing a wide array of resources starting from AWS to Firebase.</p>
+			</div>
+			</div>
 		</div>
-		<div>
-			<h3>Your Project</h3>
-			<p>You are welcome to hire me (hopefully without an NDA, but NDA is also ok), or get a quick technical consultation for your new company or startup. My generalised <a href="pricing.html">pricing</a>. Reach me : <a href="mailto:zameelpichen@gmail.com?Subject=Hello%20There!" target="_top">zameelpichen@gmail.com</a> | <a href="https://www.linkedin.com/in/zameelpichen/">LinkedIn</a> | <a href="https://twitter.com/zameelpichen">Twitter</a> | <a href="https://github.com/zameelpichen">Gthub</a>.</p>
+		<div class="row">
+			<div class="col-md-6"></div>
+			<div class="professional-card col-md-6">
+				<div>
+				<h3>Your Project</h3>
+				<p>This is the place for your project. You are welcome to hire me (hopefully without any strict NDA, but NDA is also ok), or get a quick technical consultation for your new company or startup. Here is my generalised <a href="pricing.html" target="_blank">pricing</a> if you want to hire me. Also, you can reach me : <a href="mailto:zameelpichen@gmail.com?Subject=Hello%20There!" target="_top">zameelpichen@gmail.com</a> | <a href="https://www.linkedin.com/in/zameelpichen/" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a> | <a href="https://twitter.com/zameelpichen" target="_blank"><i class="fa fa-lg fa-twitter"></i></a> | <a href="https://github.com/zameelpichen" target="_blank"><i class="fa fa-lg fa-github"></i></a>.</p>
+				</div>
+			</div>
+		</div>
 		</div>
 	</div>
+	<div class="row">
 	<div>
-		<h2>Programming Experiences</h2>
+		<h2 class="text-center"  style="margin-top: 22px">Programming Experiences</h2>
+	<div class="row">
+			<div class="program-card col-md-6">
 		<div>
 			<h3>Java, Kotlin, Android SDK</h3>
 			<p>Profficient.</p>
 		</div>
+	</div>
+	<div class="program-card col-md-6">
 		<div>
-			<h3>Dagger2, RxJava, Android NDK and other general libraries</h3>
+			<h3>Dagger2, RxJava, Android NDK</h3>
 			<p>Enough to develop an MVP based android app. And experienced with NDK enough to control hardware by hardcoding.</p>
 		</div>
-		<div>
-			<h3>Lua, Moai SDK, Cocos2d SDK, Unity, Godot Engine</h3>
-			<p>(Self) Crash Coursed all of them.</p>
-		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="program-card col-md-6">
 		<div>
 			<h3>Swift, iOS SDK</h3>
 			<p>The basics needed in general scenarios.</p>
 		</div>
-		<div>
-			<h3>C++, OpenGL 3.0+</h3>
-			<p>Experienced only with what is needed to create a 2D game with cool graphics by raw coding shaders, and objects.</p>
-		</div>
-		<div>
-			<h3>Html, Css, Js, Bootstrap, JQuery</h3>
-			<p>Versatile.</p>
-		</div>
-		<div>
-			<h3>Php, Laravel</h3>
-			<p>A few hobby projects.</p>
-		</div>
-		<div>
-			<h3>NodeJs</h3>
-			<p>The basics.</p>
-		</div>
+	</div>
+	<div class="program-card col-md-6">
 		<div>
 			<h3>AWS SDK, Firebase SDK</h3>
 			<p>Experienced with all tools of Firebase, and commonly used ones of AWS.</p>
 		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="program-card col-md-6">
 		<div>
-			<h3>Essential Kernel and Shell Scripting</h3>
-			<p>Learned while digging the ReactOS Project. Check it <a href="https://www.reactos.org/">Out</a>.</p>
+			<h3>C++, OpenGL 3.0+</h3>
+			<p>Experienced only with what is needed to create a 2D game with cool graphics by raw coding shaders, and objects.</p>
 		</div>
+	</div>
+	<div class="program-card col-md-6">
 		<div>
-			<h3>Python</h3>
-			<p>Crash coursed while trying to repair the WhatsApp-Telegram-Bridge. Its <a href="https://github.com/SpEcHiDe/WhatsApp-Telegram-Bridge">Here</a>.</p>
+			<h3>Lua, Moai SDK, Cocos2d SDK, Unity, Godot Engine</h3>
+			<p>(Self) Crash Coursed all of them.</p>
 		</div>
 	</div>
 </div>
-
-<div>
-	<h1>Personal</h1>
-	<div>
-		<h2>Researching</h2>
+<div class="row">
+	<div class="program-card col-md-6">
 		<div>
-			<h3>Ubiquitous Computing</h3>
-			<p>Simply said, putting computers everywhere. Know more <a href="https://en.wikipedia.org/wiki/Ubiquitous_computing">here</a>.</p>
-		</div>
-		<div>
-			<h3>Quantum Computing</h3>
-			<p>Fellow researcher with IBM Q Experience (A 6 qubit Quantum Computer). This is how I plan to implement Ubiquitous Computing (theoritically atleast) in the coming future. <a href="https://github.com/zameelpichen/learnquantum">Here's</a> a github repo of a collection of misdirection-free (not 100%, but this is enough for beginners) materials on Quantum Computing.</p>
+			<h3>Html, Css, Js, Bootstrap, JQuery</h3>
+			<p>Versatile.</p>
 		</div>
 	</div>
+	<div class="program-card col-md-6">
+		<div>
+			<h3>Php, Laravel</h3>
+			<p>A few hobby projects.</p>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="program-card col-md-6">
+		<div>
+			<h3>NodeJs</h3>
+			<p>The basics.</p>
+		</div>
+	</div>
+
+	<div class="program-card col-md-6">
+		<div>
+			<h3>Python</h3>
+			<p>Crash coursed while trying to repair the WhatsApp-Telegram-Bridge. Its <a href="https://github.com/SpEcHiDe/WhatsApp-Telegram-Bridge" target="_blank">Here</a>.</p>
+		</div>
+	</div>
+
+</div>
+<div class="row">
+	<div class="program-card col-md-6">
+		<div>
+			<h3>Essential Kernel and Shell Scripting</h3>
+			<p>Learned while digging the ReactOS Project. Check it <a href="https://www.reactos.org/" target="_blank">Out</a>.</p>
+		</div>
+	</div>
+</div>
+</div>
+	</div>
+</div>
+
+<div class="container" id="personalsec" style="margin-top: 32px;padding-top: 8px">
+	<div class="row">
+
+	<h1 class="col-12 text-center">Personal</h1>
+</div>
+	<div class="row">
 	<div>
-		<h2>Interests</h2>
+		<h2 class="text-center" style="margin-top: 16px">Researching</h2>
+
+	<div class="row">
+		<div class="research-card col-md-6">
+		<div>
+			<h3>Ubiquitous Computing</h3>
+			<p>Simply said, putting computers everywhere. Know more <a href="https://en.wikipedia.org/wiki/Ubiquitous_computing" target="_blank">here</a>.</p>
+		</div>
+	</div>
+	<div class="research-card col-md-6">
+		<div>
+			<h3>Quantum Computing</h3>
+			<p>Fellow researcher with IBM Q Experience (A 6 qubit Quantum Computer). This is how I plan to implement Ubiquitous Computing (theoritically atleast) in the coming future. <a href="https://github.com/zameelpichen/learnquantum" target="_blank">Here's</a> a github repo of a collection of misdirection-free (not 100%, but this is enough for beginners) materials on Quantum Computing.</p>
+		</div>
+	</div>
+</div>
+	</div>
+</div>
+<div class="row">
+
+	<div>
+		<h2 class="text-center" style="margin-top: 16px">Interests</h2>
+		<div class="row">
+			<div class="interests-card col-md-6">
 		<div>
 			<h3>Buisiness Strategy</h3>
 			<p>The greatest takeovers, market disruptions, are all like that of a great chess game</p>
 		</div>
+	</div>
+	<div class="interests-card col-md-6">
 		<div>
 			<h3>Market Statistics</h3>
 			<p>Important for having better accuracy in entreprenial decision making.</p>
 		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="interests-card col-md-6">
 		<div>
 			<h3>Philosophy</h3>
-			<p><a href="https://lifeturnstoday.blogspot.com">My blog</a> from two years back with a few philosophical ideas about life and perspectives of tennagers and adults.</p>
+			<p><a href="https://lifeturnstoday.blogspot.com" target="_blank">My blog</a> from two years back with a few philosophical ideas about life and perspectives of teenagers and adults.</p>
 		</div>
+	</div>
+	<div class="interests-card col-md-6">
 		<div>
 			<h3>Literature</h3>
 			<p>Leo Tolstoy works have a life of its own. Robert Frost's "The Road Not Taken" is in kind of a symphony with me.</p>
 		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="interests-card col-md-6">
 		<div>
 			<h3>History</h3>
 			<p>Socialogy of different eras, and its impact on modern soceity.</p>
 		</div>
+	</div>
+	<div class="interests-card col-md-6">
 		<div>
 			<h3>Art</h3>
 			<p>Doodling, Cartooning, and Picasso works</p>
 		</div>
 	</div>
-	<div>
-		<h2>Sports</h2>
+</div>
+	</div>
+</div>
+<div class="row">
+	<div >
+		<h2 class="text-center" style="margin-top: 16px">Sports</h2>
+		<div class="row">
+			<div class="sports-card col-md-6">
 		<div>
 			<h3>Basketball</h3>
 			<p>Micheal Jordan's games put the thrill of basketball in me.</p>
 		</div>
+	</div>
+	<div class="sports-card col-md-6">
 		<div>
 			<h3>Chess</h3>
-			<p>Bobby Fischer and what Garry Kasparov said after he lost a match with Deep Blue, "Deep Blue was intelligent the way your programmable $10 alarm clock is intelligent".</p>
+			<p>Bobby Fischer matches and what Garry Kasparov said after he lost a match with Deep Blue, "Deep Blue was intelligent the way your programmable $10 alarm clock is intelligent" pulled me here.</p>
 		</div>
 	</div>
 </div>
+	</div>
+</div>
+</div>
+
 <footer>
-	<a href="">Twitter</a>
+	<div style="height: 2vh"> </div>
+	<div>
+		                                    
+<!--Twitter-->
+<a class="tw-ic mr-3" href="https://twitter.com/zameelpichen" target="_blank"><i class="fa fa-lg fa-twitter"> </i></a>
+<!--Linkedin-->
+<a class="li-ic mr-3" href="https://www.linkedin.com/in/zameelpichen/" target="_blank"><i class="fa fa-lg fa-linkedin"> </i></a>
+<!--Github-->
+<a class="git-ic mr-3" href="https://github.com/zameelpichen" target="_blank"><i class="fa fa-lg fa-github"> </i></a>
+<!--Email-->
+<a href="mailto:zameelpichen@gmail.com?Subject=Hello%20There!" class="email-ic"  target="_top"><i class="fa fa-lg fa-envelope-o"> </i></a>
+	</div>
+	<div style="height: 2vh"> </div>
+	<div>
+    &copy; 2018 Zameel Pichen. All Rights Reserved.
+    </div>	
 </footer>
 
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript">
+$("[href*=#]").click(function(e) {
+	e.preventDefault();
+	
+	var position = $($(this).attr("href")).offset().top;
+
+	$("body, html").animate({
+		scrollTop: position
+	}, 'slow' );
+});
+</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.js"/>
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.bundle.min.js"/>
+
+
 
 </body>
 </html>
