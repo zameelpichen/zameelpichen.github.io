@@ -243,7 +243,7 @@
 	<div class="col-md-6 professional d-flex justify-content-center"  style="padding: 0px">
 		<div class="d-flex justify-content-center professional-overlay">
 			<div>
-				<a class="btn btn-lg btn-outline-primary pro-btn" href="#professionalsec">Professional</a>
+				<a id="scrollmepro" class="btn btn-lg btn-outline-primary pro-btn" href="#professionalsec">Professional</a>
 			
 			</div>
 			</div>
@@ -255,7 +255,7 @@
 		<div class="img-wrapper">
 		    <img class="img-responsive" style="width:90%; max-height: 90vh" src="img/personal_main.png">
 		    <div class="img-overlay">
-			<a href="#personalsec" class="btn btn-lg btn-outline-primary centered">Personal</a>
+			<a  id="scrollmeper" href="#personalsec" class="btn btn-lg btn-outline-primary centered">Personal</a>
 		    </div>
 		</div>
 		
@@ -526,7 +526,7 @@
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script type="text/javascript">
-$("[href*=#]").click(function(e) {
+$("[id^=scrollme]").click(function(e) {
 	e.preventDefault();
 	
 	var position = $($(this).attr("href")).offset().top;
