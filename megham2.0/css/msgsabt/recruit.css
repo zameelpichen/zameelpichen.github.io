@@ -1,0 +1,891 @@
+@charset "utf-8";
+
+/* font */
+@import url("//fonts.googleapis.com/css?family=Roboto:400,500");
+
+/* common */
+body {
+    position: relative;
+}
+
+#recruit2018 {
+    margin: 0 auto;
+}
+
+#recruit2018.top {
+    font-size: 87.5%;
+}
+
+#recruit2018 * {
+    box-sizing: border-box;
+}
+
+#recruit2018 img {
+    max-width: 100%;
+}
+
+#recruit2018 li,
+#recruit2018 dt {
+    list-style: none;
+}
+
+#recruit2018 .cf:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#recruit2018 .head {
+    width: 950px;
+    margin: 0 auto 80px;
+    text-align: left;
+    position: relative;
+}
+
+#recruit2018 .head .title {
+    font-size: 300%;
+    margin-bottom: 40px;
+    color: #000;
+    font-weight: 500;
+}
+
+#recruit2018 .head .title.roboto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 400%;
+    font-weight: 500;
+}
+
+#recruit2018 .head > p {
+    font-size: 114.2857142857143%;
+    line-height: 2;
+    margin: 0;
+}
+
+#recruit2018 .head > p > span {
+    font-weight: bold;
+}
+
+#recruit2018 .head > p a {
+    color: #000;
+    text-decoration: underline;
+}
+
+#recruit2018 .head > a {
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 25px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 50px;
+    color: #000;
+    transition: 0.3s;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+#recruit2018 .head > a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+}
+
+#recruit2018 .head > a .link:before {
+    content: "";
+
+    display: inline-block;
+    width: 7px;
+    height: 9px;
+
+    background-image: url(../../img/p/icon_link.png);
+    background-repeat: no-repeat;
+
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+#recruit2018 .head > a:hover .link:before {
+    background-image: url(../../img/p/icon_link_wt.png);
+}
+
+#recruit2018 .head > a .tab:before {
+    content: "";
+
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+
+    background-image: url(../../img/p/icon_tab.png);
+    background-repeat: no-repeat;
+
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+#recruit2018 .head > a:hover .tab:before {
+    background-image: url(../../img/p/icon_tab_wt.png);
+}
+
+/* recruit2018modal */
+.recruit2018modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    display: none;
+    box-sizing: border-box;
+}
+
+.recruit2018modal * {
+    box-sizing: border-box;
+}
+
+.recruit2018modal .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.recruit2018modal .inner {
+    width: 880px;
+    margin: 0 auto; 
+    position: relative;
+}
+
+.recruit2018modal .inner .btnModalClose {
+    position: absolute;
+    right: 0;
+    top: -60px;
+    cursor: pointer;
+}
+
+.recruit2018modal .inner > dl {
+    margin: 0;
+}
+
+.recruit2018modal .inner > dl > dt {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    height: 80px;
+    line-height: 80px;
+    font-weight: bold;
+    font-size: 142.8571428571429%;
+    list-style-type: none;
+    margin: 0;
+}
+
+.recruit2018modal .inner > dl > dd {
+    background-color: #fff;
+    margin: 0;
+    padding: 80px;
+}
+
+/* recruit2018modalFaq */
+#recruit2018modalFaq .faqContainer dl {
+    margin: 0 0 40px;
+}
+
+#recruit2018modalFaq .faqContainer dl:last-of-type {
+    margin-bottom: 0;
+}
+
+#recruit2018modalFaq .faqContainer dt {
+    padding: 20px;
+    background-color: #e6e8eb;
+    font-weight: bold;
+
+    background-repeat: no-repeat;
+    background-image: url(../../img/p/accordion_off.png);
+    background-position: right 20px center;
+    list-style-type: none;
+    cursor: pointer;
+    margin: 0;
+    font-size: 114.2857142857143%;
+}
+
+#recruit2018modalFaq .faqContainer dl.on dt {
+    background-image: url(../../img/p/accordion_on.png);
+}
+
+#recruit2018modalFaq .faqContainer dt p {
+    text-indent: -1.0em;
+    padding-left: 1.0em;
+    margin: 0;
+}
+
+#recruit2018modalFaq .faqContainer dd {
+    padding: 20px 20px 0;
+    display: none;
+    margin: 0;
+}
+
+#recruit2018modalFaq .faqContainer dd p {
+    line-height: 2;
+    text-indent: -1.5em;
+    padding-left: 1.5em;
+    margin: 0;
+    font-size: 114.2857142857143%;
+}
+
+#recruit2018modalFaq .faqContainer dd p span {
+    color: #ad0909;
+}
+
+/* recruit2018modalFlow */
+#recruit2018modalFlow .inner > dl > dd {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#recruit2018modalFlow .flowContainer ul {
+    text-align: center;
+    margin: 0;
+}
+
+#recruit2018modalFlow .flowContainer ul li {
+    text-align: center;
+    font-size: 85.71428571428571%;
+    color: #666;
+    margin-bottom: 0;
+    list-style-type: none;
+    display: inline-block;
+    width: 220px;
+    margin-right: 60px;
+    vertical-align: top;
+    line-height: 2;
+    position: relative;
+}
+
+#recruit2018modalFlow .flowContainer ul li:after {
+    content: '';
+
+    display: block;
+    width: 21px;
+    height: 30px;
+
+    background-image: url(../../img/p/flow_arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    position: absolute;
+    top: 80px;
+    right: -30px;
+}
+
+#recruit2018modalFlow .flowContainer ul li:last-of-type {
+    margin-right: 0;
+}
+
+#recruit2018modalFlow .flowContainer ul li:last-of-type:after {
+    display: none;
+}
+
+#recruit2018modalFlow .flowContainer ul li span {
+    display: block;
+    width: 80px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    line-height: 24px;
+    margin: 0 auto 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#recruit2018modalFlow .flowContainer ul li img {
+    margin-bottom: 20px;
+    width: 80px;
+}
+
+#recruit2018modalFlow .flowContainer ul li.step02 img {
+    width: 70px;
+}
+
+#recruit2018modalFlow .flowContainer ul li.step03 img {
+    width: 78px;
+}
+
+#recruit2018modalFlow .flowContainer ul li p {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 133.3333333333333%;
+}
+
+/* mvSection */
+#recruit2018 .mvSection {
+    height: 626px;
+    width: 100%;
+    margin-bottom: 170px;
+    position: relative;
+}
+
+#recruit2018 .mvSection:after {
+    content: '';
+
+    display: block;
+    width: 1px;
+    height: 25px;
+    background-color: #fff;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 10;
+}
+
+#recruit2018 .mvSection:before {
+    content: '';
+
+    display: block;
+    width: 1px;
+    height: 25px;
+    background-color: #000;
+
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 10;
+}
+
+#recruit2018 .mvSection > img {
+    z-index: 11;
+    position: absolute;
+    width: 780px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#recruit2018 .mvSection > p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #fff;
+    z-index: 10;
+    position: absolute;
+    bottom: 45px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+#recruit2018 .mvSection ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: none;
+    overflow: hidden;
+}
+
+#recruit2018 .mvSection ul li.on {
+    display: block;
+}
+
+#recruit2018 .mvSection ul li > img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: none;
+    width: 100%;
+    min-width: 1280px;
+}
+
+/* messageSection */
+#recruit2018 .messageSection {
+    max-width: 1280px;
+    margin: 0 auto 130px;
+}
+
+#recruit2018 .messageSection dl {
+    margin: 0;
+}
+
+#recruit2018 .messageSection dl dt {
+    float: left;
+    width: calc(100% - 640px);
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+}
+
+#recruit2018 .messageSection dl dt > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    max-width: none;
+}
+
+#recruit2018 .messageSection dl dd {
+    float: left;
+    width: 640px;
+    background-color: #e6e8eb;
+    height: 600px;
+    margin: 0;
+    text-align: left;
+    position: relative;
+}
+
+#recruit2018 .messageSection dl dd > div {
+    padding: 0 80px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#recruit2018 .messageSection dl dd .subTitle {
+    margin-bottom: 50px;
+    /* font-size: 228.5714285714286%; */
+    font-size: 32px;
+}
+
+#recruit2018 .messageSection dl dd p {
+    /* font-size: 114.2857142857143%; */
+    font-size: 16px;
+    line-height: 2;
+}
+
+#recruit2018 .messageSection dl:nth-of-type(even) dt,
+#recruit2018 .messageSection dl:nth-of-type(even) dd {
+    float: right;
+}
+
+/* aboutSection */
+#recruit2018 .aboutSection {
+    margin-bottom: 160px;
+}
+
+#recruit2018 .aboutSection .photo {
+    height: 520px;
+    position: relative;
+    overflow: hidden;
+}
+
+#recruit2018 .aboutSection .photo img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: none;
+    width: 100%;
+    min-width: 1280px;
+}
+
+/* infoSection */
+#recruit2018 .infoSection {
+    max-width: 1110px;
+    margin: 0 auto 230px;
+    text-align: left;
+}
+
+#recruit2018 .infoSection .infoTitle {
+    max-width: 950px;
+    margin: 0 auto 75px;
+    font-weight: 400;
+    font-size: 228.5714285714286%;
+    letter-spacing: 4px;
+    line-height: 1;
+    color: #000;
+}
+
+#recruit2018 .infoSection .infoTitle span {
+    font-size: 50%;
+    vertical-align: middle;
+    letter-spacing: 2px;
+    display: inline-block;
+    border-left: 1px solid #000;
+    line-height: 32px;
+    padding-left: 40px;
+    margin-left: 40px;
+}
+
+#recruit2018 .infoSection ul {
+    margin: 0;
+}
+
+#recruit2018 .infoSection ul li {
+    width: calc(50% - 5px);
+    float: left;
+    background-color: #e6e8eb;
+    margin: 0;
+    position: relative;
+}
+
+#recruit2018 .infoSection ul li:nth-of-type(even) {
+    float: right;
+}
+
+#recruit2018 .infoSection ul li:nth-of-type(n+3) {
+    margin-top: 10px;
+}
+
+#recruit2018 .infoSection ul li.disable:after {
+    content: "";
+
+    display: block;
+    width: 200px;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#recruit2018 .infoSection ul li.disable:before {
+    content: "";
+
+    display: block;
+    width: 350px;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 200px;
+
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 2;
+}
+
+#recruit2018 .infoSection ul li.disable a {
+    opacity: 0.5;
+}
+
+#recruit2018 .infoSection ul li a {
+    color: #000;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 160px;
+    padding-left: 240px;
+    line-height: 160px;
+    transition: 0.3s;
+    font-size: 114.2857142857143%;
+}
+
+#recruit2018 .infoSection ul li a:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+#recruit2018 .infoSection ul li a > img {
+    position: absolute;
+    left: 0;
+}
+
+#recruit2018 .infoSection ul li a span > img {
+    vertical-align: middle;
+    margin-right: 12px;
+    position: relative;
+    top: -2px;
+}
+
+#recruit2018 .infoSection > a {
+    height: 80px;
+    line-height: 80px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+    font-size: 114.2857142857143%;
+    transition: 0.3s;
+    border: 1px solid #000;
+}
+
+#recruit2018 .infoSection > a:hover {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+#recruit2018 .infoSection > a span:before {
+    content: url(../../img/p/icon_link_wt.png);
+    margin-right: 5px;
+}
+
+#recruit2018 .infoSection > a:hover span:before {
+    content: url(../../img/p/icon_link.png);
+}
+
+/* contactSection */
+#recruit2018 .contactSection {
+    margin: 0 -20px 160px;
+}
+
+#recruit2018 .contactSection .head {
+    margin-bottom: 40px;
+}
+
+#recruit2018 .contactSection .form {
+    width: 950px;
+    margin: 0 auto;
+    background-color: #e6e8eb;
+    padding: 80px 120px;
+    text-align: left;
+}
+
+#recruit2018 .contactSection .form input[type=text], 
+#recruit2018 .contactSection .form input[type=email], 
+#recruit2018 .contactSection .form button, 
+#recruit2018 .contactSection .form textarea, 
+#recruit2018 .contactSection .form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    border: 1px solid #dddddd;
+    font-size: 114.2857142857143%;
+    padding: 20px 30px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#recruit2018 .contactSection .form textarea {
+    resize: vertical;
+}
+
+#recruit2018 .contactSection .form button {
+    background-color: transparent;
+    border: none;
+    width: auto;
+    padding: 0 !important;
+    cursor: pointer;
+    outline: none;
+}
+
+#recruit2018 .contactSection .form select::-ms-expand {
+    display: none;
+}
+
+#recruit2018 .contactSection .form select {
+    background-image: url(../../img/p/select_arrow.png);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 8px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+#recruit2018 .contactSection .form form > div {
+    margin-bottom: 40px;
+}
+
+#recruit2018 .contactSection .form form > div .title {
+    font-size: 114.2857142857143%;
+    font-weight: bold;
+    line-height: 1;
+}
+
+#recruit2018 .contactSection .form form > div .title span {
+    font-size: 75%;
+}
+
+#recruit2018 .contactSection .form form > div .error {
+    color: #cd3333 !important;
+    margin: 20px 0 0;
+    line-height: 1;
+}
+
+#recruit2018 .contactSection .form form > div.errorBlock select,
+#recruit2018 .contactSection .form form > div.errorBlock input {
+    background-color: #f7e6e6;
+    border: 1px solid #dd9191;
+}
+
+#recruit2018 .contactSection .form form button {
+    width: 200px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 25px;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000;
+    transition: 0.3s;
+}
+#recruit2018 .contactSection .form form button.back{
+    border: 1px solid #888;
+    background-color: #888;
+}
+
+#recruit2018 .contactSection .form form button:hover {
+    background-color: #e6e8eb;
+    color: #000;
+}
+
+#recruit2018 .contactSection .form form button span:before {
+    content: "";
+
+    display: inline-block;
+    width: 7px;
+    height: 9px;
+
+    background-image: url(../../img/p/icon_link_wt.png);
+    background-repeat: no-repeat;
+
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+#recruit2018 .contactSection .form form button:hover span:before {
+    background-image: url(../../img/p/icon_link.png);
+}
+
+#recruit2018 .contactSection .form > p {
+    margin: 80px 0 0;
+    color: #666;
+    line-height: 2;
+}
+
+#recruit2018 .contactSection .form > p span {
+    font-weight: bold;
+}
+
+#recruit2018 .contactSection .form .btnList {
+    margin-top: 60px;
+    text-align: center;
+}
+
+#recruit2018 .contactSection .form .btnList button {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#recruit2018 .contactSection .btnClose {
+    width: 200px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 25px;
+    color: #fff;
+    display: block;
+    margin: 60px auto 0;
+    border: 1px solid #000;
+    transition: 0.3s;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+}
+
+#recruit2018 .contactSection .btnClose:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#recruit2018 .contactSection .form .confirmTxt {
+    font-size: 114.2857142857143%;
+    padding: 0;
+    line-height: 1.3;
+    word-wrap: break-word;
+}
+
+/* english */
+#recruit2018.en {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#recruit2018.en .head > a {
+    width: 240px;
+    font-size: 105%;
+}
+
+#recruit2018.en .head > a.wide {
+    width: 320px;
+}
+
+#recruit2018.en .head > p {
+    font-size: 105%;
+}
+
+#recruit2018 .messageSection dl dd .subTitle {
+    margin-bottom: 35px;
+}
+
+.recruit2018modal.en {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.recruit2018modal.en .inner > dl > dt {
+    font-weight: 500;
+}
+
+#recruit2018.en .messageSection dl dd p {
+    font-size: 15px;
+}
+
+#recruit2018.en .infoSection .infoTitle {
+    max-width: 1100px;
+    font-size: 220%;
+}
+
+#recruit2018.en .infoSection ul li a {
+    font-size: 130%;
+}
+
+#recruit2018.en .infoSection ul li a.wide {
+    line-height: 1;
+}
+#recruit2018.en .infoSection ul li a.wide span {
+    line-height: 1.3;
+    padding-top: 3.5em;
+    padding-left: 22px;
+    text-indent: -22px;
+    display: inline-block;
+}
+
+#recruit2018modalFaq.en .faqContainer dt {
+    font-size: 100%;
+}
+
+#recruit2018modalFaq.en .faqContainer dd {
+    font-size: 100%;
+}
+
+#recruit2018modalFaq.en .faqContainer dd p {
+    text-indent: -1.2em;
+    padding-left: 1.2em;
+}
+
+#recruit2018modalFlow.en .flowContainer ul li {
+    width: 230px;
+}
+
+#recruit2018modalFlow.en .flowContainer ul li p  {
+    font-size: 110%;
+}
+
+#recruit2018.en .contactSection .form {
+    font-size: 110%;
+}
+
+#recruit2018.en .contactSection .head > p {
+    font-size: 120%;
+}
+
+#recruit2018.en .contactSection .btnClose {
+    font-size: 120%;
+}

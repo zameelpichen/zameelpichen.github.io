@@ -1,0 +1,192 @@
+.section-info .section-info-high-disaster-lv1_header,
+.section-info .section-info-high-disaster-lv2_header {
+  display: block;
+  background-color: #cc0000;
+  position: relative;
+  padding: 15px 0 13px;
+  text-align: center
+}
+
+.section-info .section-info-high-disaster-lv1_title-lv1,
+.section-info .section-info-high-disaster-lv2_title-lv1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 157.14286%;
+  line-height: 1
+}
+
+.section-info .section-info-high-disaster-lv1_howtouse,
+.section-info .section-info-high-disaster-lv2_howtouse {
+  position: absolute;
+  top: 8px;
+  right: 8px
+}
+
+.section-info .section-info-high-disaster-lv1_link,
+.section-info .section-info-high-disaster-lv2_link {
+  display: block;
+  color: #ffffff;
+  font-size: 85.71429%;
+  line-height: 1;
+  padding: 10px 17px;
+  border: 1px solid #ffffff;
+  border-radius: 4px
+}
+
+.section-info .section-info-high-disaster-lv1_link:hover,
+.section-info .section-info-high-disaster-lv2_link:hover,
+.section-info .section-info-high-disaster-lv1_link:active,
+.section-info .section-info-high-disaster-lv2_link:active,
+.section-info .section-info-high-disaster-lv1_link:focus,
+.section-info .section-info-high-disaster-lv2_link:focus {
+  text-decoration: underline
+}
+
+.section-info .section-info-high-disaster-lv2_contents {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -js-display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  -js-justify-content: space-between
+}
+
+.section-info .section-info-high-disaster-lv2_contents-item {
+  padding: 25px 0;
+  background-color: #ffffff;
+  border: 4px solid;
+  text-align: center;
+  box-sizing: border-box;
+  width: 470px
+}
+
+.section-info .section-info-high-disaster-lv2_title-lv2 {
+  font-weight: bold;
+  font-size: 171.42857%;
+  line-height: 1
+}
+
+.section-info .section-info-high-disaster-lv2_text {
+  font-size: 100%;
+  line-height: 1.71429
+}
+
+.section-info .section-info-high-disaster-lv2_button {
+  display: inline-block;
+  padding: 18px 10px 18px;
+  border-radius: 4px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 114.28571%;
+  line-height: 1;
+  font-weight: bold;
+  letter-spacing: normal;
+  box-sizing: border-box;
+  margin-top: 20px;
+  min-width: 340px;
+  -webkit-transition: opacity 0.1s ease-out;
+  transition: opacity 0.1s ease-out
+}
+
+.section-info .section-info-high-disaster-lv2_button:hover,
+.section-info .section-info-high-disaster-lv2_button:active,
+.section-info .section-info-high-disaster-lv2_button:focus {
+  color: #ffffff;
+  opacity: 0.8;
+  text-decoration: none
+}
+
+.section-info .section-info-high-disaster-lv2_notice {
+  font-size: 85.71429%;
+  line-height: 1
+}
+
+.section-info .section-info-high-disaster-lv2_contents-message {
+  border-color: #cc0000
+}
+
+.section-info .section-info-high-disaster-lv2_contents-message .section-info-high-disaster-lv2_title-lv2 {
+  color: #cc0000
+}
+
+.section-info .section-info-high-disaster-lv2_contents-message .section-info-high-disaster-lv2_button {
+  background-color: #cc0000
+}
+
+.section-info .section-info-high-disaster-lv2_contents-voice {
+  border-color: #6197d7
+}
+
+.section-info .section-info-high-disaster-lv2_contents-voice .section-info-high-disaster-lv2_title-lv2 {
+  color: #6197d7
+}
+
+.section-info .section-info-high-disaster-lv2_contents-voice .section-info-high-disaster-lv2_button {
+  background-color: #6197d7
+}
+
+.section-info .section-info-high-disaster-lv2 p.section-info-high-disaster-lv2_text {
+  margin-top: 20px
+}
+
+.section-info .section-info-high-disaster-lv2 p.section-info-high-disaster-lv2_notice {
+  margin-top: 20px
+}
+
+.section-info .section-info-high-disaster-lv2_download {
+  background-color: #ffffff;
+  padding: 16px 26px;
+  border: 4px solid #e6e8eb;
+  margin-top: 10px
+}
+
+.section-info .section-info-high-disaster-lv2_download-inner {
+  display: table;
+  width: 100%
+}
+
+.section-info .section-info-high-disaster-lv2_download-header {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  width: 320px
+}
+
+.section-info .section-info-high-disaster-lv2_download-title {
+  display: inline-block;
+  background: url(/site/set/common/p/img/disaster/icon-message.png) no-repeat left top;
+  background-size: 70px;
+  box-sizing: border-box;
+  height: 70px;
+  padding: 12px 0 0 90px;
+  font-size: 128.57143%;
+  line-height: 1.44444;
+  font-weight: bold
+}
+
+.section-info .section-info-high-disaster-lv2_download-text {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 100%;
+  line-height: 1;
+  color: #666666;
+  text-align: right
+}
+
+.section-info .section-info-high-disaster-lv2_download-qrcode {
+  display: table-cell;
+  vertical-align: middle;
+  width: 85px;
+  text-align: right
+}
+
+.section-info .section-info-high-disaster-lv2_download-qrcode img {
+  vertical-align: middle
+}

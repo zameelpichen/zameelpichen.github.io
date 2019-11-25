@@ -1,0 +1,20 @@
+@charset "UTF-8";
+#social-badge {
+  display: none !important;
+}
+
+/* フラットな box-shadow をトリ
+----------------------------------------------- */
+.box-02, .box-03, .nav-local .active, div.index-block dl dt {
+  box-shadow: none;
+}
+
+.box-02 {
+  padding: 10px 10px 20px;
+  border: 12px solid #d8dadc;
+}
+
+.box-03 {
+  padding: 10px 10px 20px;
+  border: 12px solid #d7e3f5;
+}

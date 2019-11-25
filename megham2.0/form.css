@@ -1,0 +1,75 @@
+.form-group {
+  margin-bottom: 1rem; }
+
+
+  .form-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0; }
+
+
+    .form-group {
+      position: relative;
+      margin-bottom: 0; }
+       .form-group input {
+        padding-right: 50px;
+        font-size: 14px; }
+
+
+        .form-group {
+          position: relative;
+          margin-bottom: 0;
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          -ms-border-radius: 0;
+          border-radius: 0; }
+
+          .form-group input {
+            background: transparent !important;
+            border: 1px solid transparent;
+            color: rgba(255, 255, 255, 0.7) !important;
+            font-size: 16px;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            border-radius: 0; }
+
+
+           .form-group input::-webkit-input-placeholder {
+              /* Chrome/Opera/Safari */
+              color: rgba(255, 255, 255, 0.7) !important; }
+            .form-group input::-moz-placeholder {
+              /* Firefox 19+ */
+              color: rgba(255, 255, 255, 0.7) !important; }
+          .form-group input:-ms-input-placeholder {
+              /* IE 10+ */
+              color: rgba(255, 255, 255, 0.7) !important; }
+           .form-group input:-moz-placeholder {
+              /* Firefox 18- */
+              color: rgba(255, 255, 255, 0.7) !important; }
+           .form-group .form-control {
+            bordeR: 1px solid rgba(255, 255, 255, 0.4); }
+          .form-group .submit {
+            color: #000000 !important;
+            display: block;
+            width: 100%;
+            height: 52px;
+            font-size: 16px;
+            background: #fff !important;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            border-radius: 0; }
+            .form-group .submit:hover {
+              cursor: pointer; }
